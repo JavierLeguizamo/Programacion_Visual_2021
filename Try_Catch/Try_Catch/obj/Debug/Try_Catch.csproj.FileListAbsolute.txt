@@ -1,0 +1,6 @@
+D:\jimmy\Documents\SharpDevelop Projects\Try_Catch\Try_Catch\bin\Debug\Try_Catch.exe.config
+D:\jimmy\Documents\SharpDevelop Projects\Try_Catch\Try_Catch\bin\Debug\Try_Catch.exe
+D:\jimmy\Documents\SharpDevelop Projects\Try_Catch\Try_Catch\bin\Debug\Try_Catch.pdb
+D:\jimmy\Documents\SharpDevelop Projects\Try_Catch\Try_Catch\obj\Debug\Try_Catch.csprojResolveAssemblyReference.cache
+D:\jimmy\Documents\SharpDevelop Projects\Try_Catch\Try_Catch\obj\Debug\Try_Catch.exe
+D:\jimmy\Documents\SharpDevelop Projects\Try_Catch\Try_Catch\obj\Debug\Try_Catch.pdb

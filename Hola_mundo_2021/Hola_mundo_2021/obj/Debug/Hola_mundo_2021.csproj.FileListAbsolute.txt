@@ -1,0 +1,12 @@
+C:\Users\jimmy\Documents\SharpDevelop Projects\Hola_mundo_2021\Hola_mundo_2021\bin\Debug\Hola_mundo_2021.exe.config
+C:\Users\jimmy\Documents\SharpDevelop Projects\Hola_mundo_2021\Hola_mundo_2021\bin\Debug\Hola_mundo_2021.exe
+C:\Users\jimmy\Documents\SharpDevelop Projects\Hola_mundo_2021\Hola_mundo_2021\bin\Debug\Hola_mundo_2021.pdb
+C:\Users\jimmy\Documents\SharpDevelop Projects\Hola_mundo_2021\Hola_mundo_2021\obj\Debug\Hola_mundo_2021.csprojResolveAssemblyReference.cache
+C:\Users\jimmy\Documents\SharpDevelop Projects\Hola_mundo_2021\Hola_mundo_2021\obj\Debug\Hola_mundo_2021.exe
+C:\Users\jimmy\Documents\SharpDevelop Projects\Hola_mundo_2021\Hola_mundo_2021\obj\Debug\Hola_mundo_2021.pdb
+D:\jimmy\Documents\SharpDevelop Projects\Hola_mundo_2021\Hola_mundo_2021\bin\Debug\Hola_mundo_2021.exe.config
+D:\jimmy\Documents\SharpDevelop Projects\Hola_mundo_2021\Hola_mundo_2021\bin\Debug\Hola_mundo_2021.exe
+D:\jimmy\Documents\SharpDevelop Projects\Hola_mundo_2021\Hola_mundo_2021\bin\Debug\Hola_mundo_2021.pdb
+D:\jimmy\Documents\SharpDevelop Projects\Hola_mundo_2021\Hola_mundo_2021\obj\Debug\Hola_mundo_2021.csprojResolveAssemblyReference.cache
+D:\jimmy\Documents\SharpDevelop Projects\Hola_mundo_2021\Hola_mundo_2021\obj\Debug\Hola_mundo_2021.exe
+D:\jimmy\Documents\SharpDevelop Projects\Hola_mundo_2021\Hola_mundo_2021\obj\Debug\Hola_mundo_2021.pdb

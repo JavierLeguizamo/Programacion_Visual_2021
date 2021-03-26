@@ -1,0 +1,6 @@
+D:\jimmy\Documents\SharpDevelop Projects\Area_Perimetro_Circulo_2021\Area_Perimetro_Circulo_2021\bin\Debug\Area_Perimetro_Circulo_2021.exe.config
+D:\jimmy\Documents\SharpDevelop Projects\Area_Perimetro_Circulo_2021\Area_Perimetro_Circulo_2021\bin\Debug\Area_Perimetro_Circulo_2021.exe
+D:\jimmy\Documents\SharpDevelop Projects\Area_Perimetro_Circulo_2021\Area_Perimetro_Circulo_2021\bin\Debug\Area_Perimetro_Circulo_2021.pdb
+D:\jimmy\Documents\SharpDevelop Projects\Area_Perimetro_Circulo_2021\Area_Perimetro_Circulo_2021\obj\Debug\Area_Perimetro_Circulo_2021.csprojResolveAssemblyReference.cache
+D:\jimmy\Documents\SharpDevelop Projects\Area_Perimetro_Circulo_2021\Area_Perimetro_Circulo_2021\obj\Debug\Area_Perimetro_Circulo_2021.exe
+D:\jimmy\Documents\SharpDevelop Projects\Area_Perimetro_Circulo_2021\Area_Perimetro_Circulo_2021\obj\Debug\Area_Perimetro_Circulo_2021.pdb
