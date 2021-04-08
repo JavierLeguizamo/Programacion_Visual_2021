@@ -4,3 +4,9 @@ D:\jimmy\Documents\SharpDevelop Projects\Calculadora\Calculadora\bin\Debug\Calcu
 D:\jimmy\Documents\SharpDevelop Projects\Calculadora\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
 D:\jimmy\Documents\SharpDevelop Projects\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 D:\jimmy\Documents\SharpDevelop Projects\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+D:\jimmy\Documents\SharpDevelop Projects\2021\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+D:\jimmy\Documents\SharpDevelop Projects\2021\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+D:\jimmy\Documents\SharpDevelop Projects\2021\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+D:\jimmy\Documents\SharpDevelop Projects\2021\Calculadora\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+D:\jimmy\Documents\SharpDevelop Projects\2021\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+D:\jimmy\Documents\SharpDevelop Projects\2021\Calculadora\Calculadora\obj\Debug\Calculadora.pdb

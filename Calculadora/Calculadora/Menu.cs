@@ -18,11 +18,14 @@ namespace Calculadora
 		Operaciones operacion = new Operaciones();
 		public Menu()
 		{
-			//imprimir menu
+			
+			
+		}
+		
+		public void mostrar(){
 			Console.WriteLine("Selecciona la opcion");
 			Console.WriteLine("1. Suma");
 		}
-		
 		public double seleccion(int seleccion){
 			double num1,num2;
 			Console.Write("numero 1:");
