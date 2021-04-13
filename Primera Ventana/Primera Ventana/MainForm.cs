@@ -33,5 +33,19 @@ namespace Primera_Ventana
 		{
 			MessageBox.Show("Mensaje","Nombre de Ventana");
 		}
+		void MainFormLoad(object sender, EventArgs e)
+		{
+			btnAceptar.Enabled = false;
+			MessageBox.Show("Se ejecuto el evento Load","Evento Load");
+		}
+		void TxtNombreTextChanged(object sender, EventArgs e)
+		{
+			btnAceptar.Enabled = (txtNombre.Text != "");
+		}
+		void BtnAceptarEnabledChanged(object sender, EventArgs e)
+		{
+			MessageBox.Show("Se ejecuto el evento de cambio habilitado","EnabledChanged");
+		}
+		
 	}
 }

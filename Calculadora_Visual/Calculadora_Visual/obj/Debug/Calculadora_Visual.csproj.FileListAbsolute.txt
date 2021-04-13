@@ -1,0 +1,6 @@
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Calculadora_Visual\Calculadora_Visual\bin\Debug\Calculadora_Visual.exe.config
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Calculadora_Visual\Calculadora_Visual\bin\Debug\Calculadora_Visual.exe
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Calculadora_Visual\Calculadora_Visual\bin\Debug\Calculadora_Visual.pdb
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Calculadora_Visual\Calculadora_Visual\obj\Debug\Calculadora_Visual.csprojResolveAssemblyReference.cache
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Calculadora_Visual\Calculadora_Visual\obj\Debug\Calculadora_Visual.exe
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Calculadora_Visual\Calculadora_Visual\obj\Debug\Calculadora_Visual.pdb

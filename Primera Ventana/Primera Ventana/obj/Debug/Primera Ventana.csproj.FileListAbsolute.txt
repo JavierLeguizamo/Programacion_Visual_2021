@@ -6,3 +6,11 @@ D:\jimmy\Documents\SharpDevelop Projects\2021\Primera Ventana\Primera Ventana\ob
 D:\jimmy\Documents\SharpDevelop Projects\2021\Primera Ventana\Primera Ventana\obj\Debug\Primera Ventana.pdb
 D:\jimmy\Documents\SharpDevelop Projects\2021\Primera Ventana\Primera Ventana\obj\Debug\Primera_Ventana.MainForm.resources
 D:\jimmy\Documents\SharpDevelop Projects\2021\Primera Ventana\Primera Ventana\obj\Debug\Primera Ventana.csproj.GenerateResource.Cache
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Primera Ventana\Primera Ventana\bin\Debug\Primera Ventana.exe.config
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Primera Ventana\Primera Ventana\bin\Debug\Primera Ventana.exe
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Primera Ventana\Primera Ventana\bin\Debug\Primera Ventana.pdb
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Primera Ventana\Primera Ventana\obj\Debug\Primera Ventana.csprojResolveAssemblyReference.cache
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Primera Ventana\Primera Ventana\obj\Debug\Primera_Ventana.MainForm.resources
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Primera Ventana\Primera Ventana\obj\Debug\Primera Ventana.csproj.GenerateResource.Cache
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Primera Ventana\Primera Ventana\obj\Debug\Primera Ventana.exe
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Primera Ventana\Primera Ventana\obj\Debug\Primera Ventana.pdb

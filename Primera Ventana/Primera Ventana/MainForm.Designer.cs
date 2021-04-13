@@ -58,17 +58,20 @@ namespace Primera_Ventana
 			this.txtNombre.Name = "txtNombre";
 			this.txtNombre.Size = new System.Drawing.Size(100, 20);
 			this.txtNombre.TabIndex = 1;
+			this.txtNombre.TextChanged += new System.EventHandler(this.TxtNombreTextChanged);
 			// 
 			// btnAceptar
 			// 
 			this.btnAceptar.Font = new System.Drawing.Font("Lucida Handwriting", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnAceptar.Location = new System.Drawing.Point(62, 119);
+			this.btnAceptar.Location = new System.Drawing.Point(62, 178);
 			this.btnAceptar.Name = "btnAceptar";
 			this.btnAceptar.Size = new System.Drawing.Size(277, 125);
 			this.btnAceptar.TabIndex = 2;
 			this.btnAceptar.Text = "Aceptar";
 			this.btnAceptar.UseVisualStyleBackColor = true;
+			this.btnAceptar.EnabledChanged += new System.EventHandler(this.BtnAceptarEnabledChanged);
 			this.btnAceptar.Click += new System.EventHandler(this.BtnAceptarClick);
+			
 			// 
 			// MainForm
 			// 
@@ -81,6 +84,7 @@ namespace Primera_Ventana
 			this.Controls.Add(this.lblNombre);
 			this.Name = "MainForm";
 			this.Text = "Primer Programa con Ventanas";
+			this.Load += new System.EventHandler(this.MainFormLoad);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
