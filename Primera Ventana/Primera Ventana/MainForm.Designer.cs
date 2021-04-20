@@ -17,6 +17,8 @@ namespace Primera_Ventana
 		private System.Windows.Forms.Label lblNombre;
 		private System.Windows.Forms.TextBox txtNombre;
 		private System.Windows.Forms.Button btnAceptar;
+		private System.Windows.Forms.CheckBox chkAceptar;
+		private System.Windows.Forms.ComboBox cmbElementos;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -42,6 +44,8 @@ namespace Primera_Ventana
 			this.lblNombre = new System.Windows.Forms.Label();
 			this.txtNombre = new System.Windows.Forms.TextBox();
 			this.btnAceptar = new System.Windows.Forms.Button();
+			this.chkAceptar = new System.Windows.Forms.CheckBox();
+			this.cmbElementos = new System.Windows.Forms.ComboBox();
 			this.SuspendLayout();
 			// 
 			// lblNombre
@@ -71,7 +75,34 @@ namespace Primera_Ventana
 			this.btnAceptar.UseVisualStyleBackColor = true;
 			this.btnAceptar.EnabledChanged += new System.EventHandler(this.BtnAceptarEnabledChanged);
 			this.btnAceptar.Click += new System.EventHandler(this.BtnAceptarClick);
-			
+			// 
+			// chkAceptar
+			// 
+			this.chkAceptar.Location = new System.Drawing.Point(52, 90);
+			this.chkAceptar.Name = "chkAceptar";
+			this.chkAceptar.Size = new System.Drawing.Size(111, 28);
+			this.chkAceptar.TabIndex = 3;
+			this.chkAceptar.Text = "Acepto";
+			this.chkAceptar.UseVisualStyleBackColor = true;
+			this.chkAceptar.CheckedChanged += new System.EventHandler(this.ChkAceptarCheckedChanged);
+			// 
+			// cmbElementos
+			// 
+			this.cmbElementos.FormattingEnabled = true;
+			this.cmbElementos.Items.AddRange(new object[] {
+			"Elemento A",
+			"Elemento B",
+			"Elemento C",
+			"Elemento D",
+			"Elemento E",
+			"Elemento F",
+			"Elemento G",
+			"Elemento H"});
+			this.cmbElementos.Location = new System.Drawing.Point(218, 47);
+			this.cmbElementos.Name = "cmbElementos";
+			this.cmbElementos.Size = new System.Drawing.Size(121, 21);
+			this.cmbElementos.TabIndex = 4;
+			this.cmbElementos.Text = "Letras";
 			// 
 			// MainForm
 			// 
@@ -79,6 +110,8 @@ namespace Primera_Ventana
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.Control;
 			this.ClientSize = new System.Drawing.Size(427, 333);
+			this.Controls.Add(this.cmbElementos);
+			this.Controls.Add(this.chkAceptar);
 			this.Controls.Add(this.btnAceptar);
 			this.Controls.Add(this.txtNombre);
 			this.Controls.Add(this.lblNombre);
