@@ -31,8 +31,19 @@ namespace Primera_Ventana
 		}
 		void BtnAceptarClick(object sender, EventArgs e)
 		{
-			MessageBox.Show("Nombre: " + txtNombre.Text + 
-			                "\nComboBox: " + cmbElementos.Text,"Ventana");
+			DialogResult resultado;
+			resultado = MessageBox.Show("Nombre: " + txtNombre.Text + 
+			                "\nComboBox: " + cmbElementos.Text,"Ventana",
+			                MessageBoxButtons.OKCancel,
+			                MessageBoxIcon.Asterisk);
+			switch(resultado){
+				case DialogResult.OK:
+					MessageBox.Show("Presionaste Ok");
+					break;
+				case DialogResult.Cancel:
+					MessageBox.Show("Presionaste Cancelar");
+					break;	
+			}
 		}
 		void MainFormLoad(object sender, EventArgs e)
 		{
