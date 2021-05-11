@@ -1,0 +1,6 @@
+D:\jimmy\Documents\SharpDevelop Projects\Polimorfismo_2\Polimorfismo_2\bin\Debug\Polimorfismo_2.exe.config
+D:\jimmy\Documents\SharpDevelop Projects\Polimorfismo_2\Polimorfismo_2\bin\Debug\Polimorfismo_2.exe
+D:\jimmy\Documents\SharpDevelop Projects\Polimorfismo_2\Polimorfismo_2\bin\Debug\Polimorfismo_2.pdb
+D:\jimmy\Documents\SharpDevelop Projects\Polimorfismo_2\Polimorfismo_2\obj\Debug\Polimorfismo_2.csprojResolveAssemblyReference.cache
+D:\jimmy\Documents\SharpDevelop Projects\Polimorfismo_2\Polimorfismo_2\obj\Debug\Polimorfismo_2.exe
+D:\jimmy\Documents\SharpDevelop Projects\Polimorfismo_2\Polimorfismo_2\obj\Debug\Polimorfismo_2.pdb
