@@ -1,0 +1,8 @@
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Serial_Arduino\Serial_Arduino\bin\Debug\Serial_Arduino.exe.config
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Serial_Arduino\Serial_Arduino\bin\Debug\Serial_Arduino.exe
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Serial_Arduino\Serial_Arduino\bin\Debug\Serial_Arduino.pdb
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Serial_Arduino\Serial_Arduino\obj\Debug\Serial_Arduino.csprojResolveAssemblyReference.cache
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Serial_Arduino\Serial_Arduino\obj\Debug\Serial_Arduino.exe
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Serial_Arduino\Serial_Arduino\obj\Debug\Serial_Arduino.pdb
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Serial_Arduino\Serial_Arduino\obj\Debug\Serial_Arduino.MainForm.resources
+D:\jimmy\Documents\SharpDevelop Projects\Programacion_Visual_2021\Serial_Arduino\Serial_Arduino\obj\Debug\Serial_Arduino.csproj.GenerateResource.Cache
