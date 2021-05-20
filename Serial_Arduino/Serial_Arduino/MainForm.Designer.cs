@@ -14,9 +14,13 @@ namespace Serial_Arduino
 		/// Designer variable used to keep track of non-visual components.
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
-		private System.Windows.Forms.Button btnEncender;
+		private System.Windows.Forms.Button btnLED1;
 		private System.IO.Ports.SerialPort serialPort;
-		private System.Windows.Forms.Button btnApagar;
+		private System.Windows.Forms.Button btnLED2;
+		private System.Windows.Forms.Button btnLED3;
+		private System.Windows.Forms.Button btnBuscar;
+		private System.Windows.Forms.ComboBox cmbPuertos;
+		private System.Windows.Forms.Button btnConectar;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -40,42 +44,90 @@ namespace Serial_Arduino
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
-			this.btnEncender = new System.Windows.Forms.Button();
+			this.btnLED1 = new System.Windows.Forms.Button();
 			this.serialPort = new System.IO.Ports.SerialPort(this.components);
-			this.btnApagar = new System.Windows.Forms.Button();
+			this.btnLED2 = new System.Windows.Forms.Button();
+			this.btnLED3 = new System.Windows.Forms.Button();
+			this.btnBuscar = new System.Windows.Forms.Button();
+			this.cmbPuertos = new System.Windows.Forms.ComboBox();
+			this.btnConectar = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
-			// btnEncender
+			// btnLED1
 			// 
-			this.btnEncender.Location = new System.Drawing.Point(12, 85);
-			this.btnEncender.Name = "btnEncender";
-			this.btnEncender.Size = new System.Drawing.Size(131, 60);
-			this.btnEncender.TabIndex = 0;
-			this.btnEncender.Text = "Encender LED";
-			this.btnEncender.UseVisualStyleBackColor = true;
-			this.btnEncender.Click += new System.EventHandler(this.BtnEncenderClick);
+			this.btnLED1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.btnLED1.Enabled = false;
+			this.btnLED1.Location = new System.Drawing.Point(12, 258);
+			this.btnLED1.Name = "btnLED1";
+			this.btnLED1.Size = new System.Drawing.Size(131, 60);
+			this.btnLED1.TabIndex = 0;
+			this.btnLED1.Text = " LED 1";
+			this.btnLED1.UseVisualStyleBackColor = false;
+			this.btnLED1.Click += new System.EventHandler(this.BtnLED1Click);
 			// 
-			// serialPort
+			// btnLED2
 			// 
-			this.serialPort.PortName = "COM5";
+			this.btnLED2.Enabled = false;
+			this.btnLED2.Location = new System.Drawing.Point(329, 258);
+			this.btnLED2.Name = "btnLED2";
+			this.btnLED2.Size = new System.Drawing.Size(131, 60);
+			this.btnLED2.TabIndex = 1;
+			this.btnLED2.Text = "LED 2";
+			this.btnLED2.UseVisualStyleBackColor = true;
+			this.btnLED2.Click += new System.EventHandler(this.BtnLED2Click);
 			// 
-			// btnApagar
+			// btnLED3
 			// 
-			this.btnApagar.Location = new System.Drawing.Point(168, 85);
-			this.btnApagar.Name = "btnApagar";
-			this.btnApagar.Size = new System.Drawing.Size(131, 60);
-			this.btnApagar.TabIndex = 1;
-			this.btnApagar.Text = "Apagar LED";
-			this.btnApagar.UseVisualStyleBackColor = true;
-			this.btnApagar.Click += new System.EventHandler(this.BtnApagarClick);
+			this.btnLED3.Enabled = false;
+			this.btnLED3.Location = new System.Drawing.Point(168, 258);
+			this.btnLED3.Name = "btnLED3";
+			this.btnLED3.Size = new System.Drawing.Size(131, 60);
+			this.btnLED3.TabIndex = 2;
+			this.btnLED3.Text = "LED 3";
+			this.btnLED3.UseVisualStyleBackColor = true;
+			this.btnLED3.Click += new System.EventHandler(this.BtnLED3Click);
+			// 
+			// btnBuscar
+			// 
+			this.btnBuscar.Location = new System.Drawing.Point(12, 62);
+			this.btnBuscar.Name = "btnBuscar";
+			this.btnBuscar.Size = new System.Drawing.Size(116, 48);
+			this.btnBuscar.TabIndex = 3;
+			this.btnBuscar.Text = "Buscar Puertos";
+			this.btnBuscar.UseVisualStyleBackColor = true;
+			this.btnBuscar.Click += new System.EventHandler(this.BtnBuscarClick);
+			// 
+			// cmbPuertos
+			// 
+			this.cmbPuertos.FormattingEnabled = true;
+			this.cmbPuertos.Location = new System.Drawing.Point(134, 77);
+			this.cmbPuertos.Name = "cmbPuertos";
+			this.cmbPuertos.Size = new System.Drawing.Size(121, 21);
+			this.cmbPuertos.TabIndex = 4;
+			this.cmbPuertos.SelectedIndexChanged += new System.EventHandler(this.CmbPuertosSelectedIndexChanged);
+			// 
+			// btnConectar
+			// 
+			this.btnConectar.Enabled = false;
+			this.btnConectar.Location = new System.Drawing.Point(12, 116);
+			this.btnConectar.Name = "btnConectar";
+			this.btnConectar.Size = new System.Drawing.Size(116, 50);
+			this.btnConectar.TabIndex = 5;
+			this.btnConectar.Text = "Conectar";
+			this.btnConectar.UseVisualStyleBackColor = true;
+			this.btnConectar.Click += new System.EventHandler(this.BtnConectarClick);
 			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(311, 261);
-			this.Controls.Add(this.btnApagar);
-			this.Controls.Add(this.btnEncender);
+			this.ClientSize = new System.Drawing.Size(496, 348);
+			this.Controls.Add(this.btnConectar);
+			this.Controls.Add(this.cmbPuertos);
+			this.Controls.Add(this.btnBuscar);
+			this.Controls.Add(this.btnLED3);
+			this.Controls.Add(this.btnLED2);
+			this.Controls.Add(this.btnLED1);
 			this.Name = "MainForm";
 			this.Text = "Serial_Arduino";
 			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainFormFormClosed);

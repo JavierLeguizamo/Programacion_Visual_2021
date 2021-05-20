@@ -9,6 +9,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO.Ports;
 using System.Windows.Forms;
 
 namespace Serial_Arduino
@@ -31,16 +32,7 @@ namespace Serial_Arduino
 		}
 		void MainFormLoad(object sender, EventArgs e)
 		{
-			try {
-				serialPort.Open();
-				MessageBox.Show("Conectado Correctamente",
-				                "Conexion Exitosa");
-				
-			} catch (Exception) {
-				MessageBox.Show("Error, no se pudo conectar",
-				                "Error",MessageBoxButtons.OK,
-				               MessageBoxIcon.Error);
-			} 
+			
 		}
 		void MainFormFormClosed(object sender, FormClosedEventArgs e)
 		{
@@ -53,28 +45,77 @@ namespace Serial_Arduino
 				               MessageBoxIcon.Error);
 			}
 		}
-		void BtnEncenderClick(object sender, EventArgs e)
+		
+		void BtnLED1Click(object sender, EventArgs e)
 		{
 			try {
 				serialPort.WriteLine("A");
-				MessageBox.Show("Se encendio el LED");
+				MessageBox.Show("Ok");
 			} catch (Exception) {
 				MessageBox.Show("Hubo un error al encender el LED",
 				                "Error",MessageBoxButtons.OK,
 				               MessageBoxIcon.Error);
 			} 
 		}
-		void BtnApagarClick(object sender, EventArgs e)
+		void BtnLED2Click(object sender, EventArgs e)
 		{
 			try {
 				serialPort.WriteLine("B");
-				MessageBox.Show("Se apago el LED");
+				MessageBox.Show("Ok");
 			} catch (Exception) {
-				
-				MessageBox.Show("Hubo un error al apagar el LED",
+				MessageBox.Show("Hubo un error al encender el LED",
 				                "Error",MessageBoxButtons.OK,
 				               MessageBoxIcon.Error);
 			} 
+		}
+		void BtnLED3Click(object sender, EventArgs e)
+		{
+			try {
+				serialPort.WriteLine("C");
+				MessageBox.Show("Ok");
+			} catch (Exception) {
+				MessageBox.Show("Hubo un error al encender el LED",
+				                "Error",MessageBoxButtons.OK,
+				               MessageBoxIcon.Error);
+			} 
+		}
+		void ComboBox1SelectedIndexChanged(object sender, EventArgs e)
+		{
+	
+		}
+		void BtnBuscarClick(object sender, EventArgs e)
+		{
+			try{
+			String [] puertos = SerialPort.GetPortNames();//[COM1 COM2]
+			cmbPuertos.Items.Clear();
+				foreach(string port in puertos){
+					//Primer ciclo port = "COM1"
+					//Segundo ciclo port = "COM2"
+					cmbPuertos.Items.Add(port);
+				}
+			}catch{
+				MessageBox.Show("Hubo un error buscar los puertos",
+				                "Error",MessageBoxButtons.OK,
+				               MessageBoxIcon.Error);
+			}
+			
+		}
+		void BtnConectarClick(object sender, EventArgs e)
+		{
+			try {
+				serialPort.Open();
+				MessageBox.Show("Conectado Correctamente",
+				                "Conexion Exitosa");
+				
+			} catch (Exception) {
+				MessageBox.Show("Error, no se pudo conectar",
+				                "Error",MessageBoxButtons.OK,
+				               MessageBoxIcon.Error);
+			} 
+		}
+		void CmbPuertosSelectedIndexChanged(object sender, EventArgs e)
+		{
+			btnConectar.Enabled = true;
 		}
 	
 		
